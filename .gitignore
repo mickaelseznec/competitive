@@ -1,0 +1,5 @@
+# vim backups
+*.swp
+*.swo
+# exe
+lawn_mower
