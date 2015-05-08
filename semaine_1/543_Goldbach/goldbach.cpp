@@ -5,36 +5,34 @@ using namespace std;
 
 #define MAX_SIZE_N  1000000
 
-bool is_prime[MAX_SIZE_N];
+bool is_not_prime[MAX_SIZE_N];
 int primes[MAX_SIZE_N];
 
-bool compute_prime (int n) {
-    if (n <= 1) {
-        return false;
+void compute_primes (void) {
+    is_not_prime[0] = 1;
+    is_not_prime[1] = 1;
+    for(int n = 2; n < sqrt(MAX_SIZE_N) + 1; n++) {
+        for(int m = 2; n * m < MAX_SIZE_N; m++) {
+            is_not_prime[n * m] = 1;
+        }
     }
-
-    for (int i = 2; i < ceil(sqrt(n)) + 1; i++) {
-        if ( n % i == 0)
-            return false;
-    }
-    return true;
 }
 
 int main(void) {
     int n, j = 0, i = 0;
 
-    /* May increase speed by pre-calculate both arrays*/
-    for(int i = 0; i < MAX_SIZE_N; i++) {
-        is_prime[i] = compute_prime(i);
-        if (is_prime[i])
+    compute_primes();
+    for(int i = 0; i < MAX_SIZE_N/2; i++) {
+        if (!is_not_prime[i]) { // if prime
             primes[j++] = i;
+        }
     }
 
     while (cin >> n) {
         if (n < 6 || n % 2 == 1)
             continue;
         for (i = 0; i < MAX_SIZE_N; i++) {
-            if(is_prime[n - primes[i]])
+            if(!is_not_prime[n - primes[i]])
                 break;
         }
         cout << n << " = " << primes[i] << " + " << n - primes[i] << endl;
