@@ -1,5 +1,5 @@
 EXE = multiple_morse_match
-CPPFLAGS = -lm -lcrypt -O2 -pipe -std=c++98
+CPPFLAGS = -lm -lcrypt -O2 -pipe
 .PHONY = all execute
 
 all: $(EXE) execute
