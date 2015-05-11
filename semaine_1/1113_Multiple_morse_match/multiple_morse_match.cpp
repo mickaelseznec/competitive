@@ -61,13 +61,16 @@ int main(void) {
     string word;
 
     cin >> n;
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         result = 0;
         cin >> input_string;
         cin >> dic_size;
-        for(int j = 0; j < dic_size; j++) {
+        for (int j = 0; j < dic_size; j++) {
             cin >> word;
-            dictionnary.insert(convert_to_morse(word));
+            word = convert_to_morse(word);
+            if(word.size() <= input_string.size() && input_string.find(word) != input_string.npos) {
+                    dictionnary.insert(word);
+            }
         }
 
         match_morse(0);
