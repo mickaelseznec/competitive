@@ -13,13 +13,10 @@ int escape_mouse (vector<vector<int>> connections, int exit_cell, int timer) {
     not_marked.insert(pair<int, int> (0, exit_cell));
     distance[exit_cell] = 0;
 
-    // tant qu'il existe un cellule de durée < T non marquée
-        // prendre cette cellule et analyser ses voisins
     while (!not_marked.empty()) {
         int exam_cell = get<1>(*not_marked.begin());
         not_marked.erase(not_marked.begin());
-        cout << "Trying with cell n " << exam_cell << endl;
-    // Replace with static list of neighboors ?
+        //cout << "Trying with cell n " << exam_cell << endl;
                 for (unsigned int i = 1; i < connections.size(); ++i) {
                     if (connections[i][exam_cell] != 0) {
                         if (distance[i] > distance[exam_cell] + connections[i][exam_cell]) {
@@ -31,6 +28,7 @@ int escape_mouse (vector<vector<int>> connections, int exit_cell, int timer) {
                 }
     }
 
+    /*
 
     for (auto x : connections) {
         for (auto y : x) {
@@ -43,6 +41,7 @@ int escape_mouse (vector<vector<int>> connections, int exit_cell, int timer) {
         cout << x << ' ';
     cout << endl;
 
+    */
 
     int result = 0;
     for (auto x : distance) {
@@ -72,6 +71,7 @@ int main(void) {
 
         cout << escape_mouse(connections, exit_cell, timer) << endl;
 
+    // Replace with static list of neighboors ?
     }
 
     return 0;
