@@ -163,10 +163,13 @@ static void test_calendar() {
 int main(void) {
 
     int tzolkin_number, haab_day;
+    int cases;
     char tzolkin_day[20] , haab_month[20];
 
     int n = 0;
-    while (scanf("%d.%s %d.%s", &tzolkin_number, tzolkin_day, &haab_day, haab_month) == 4) {
+    cin >> cases;
+    while (cases--) {
+        scanf("%d.%s %d.%s", &tzolkin_number, tzolkin_day, &haab_day, haab_month);
         if (n > 0)
             printf("\n");
 
