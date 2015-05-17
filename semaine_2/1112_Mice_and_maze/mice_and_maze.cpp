@@ -59,6 +59,8 @@ int main(void) {
     cin >> cases;
 
     for (int i = 0; i < cases; ++i) {
+        if (i > 0)
+            cout << endl;
         int maze_size, exit_cell, timer, connections_size;
         cin >> maze_size >> exit_cell >> timer >> connections_size;
         vector<vector<int>> connections (maze_size + 1, vector<int> (maze_size + 1));
