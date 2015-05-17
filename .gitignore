@@ -1,6 +1,8 @@
 # vim backups
 *.swp
 *.swo
+# gmon files
+gmon.out
 # exe
 lawn_mower
 goldbach
@@ -8,3 +10,4 @@ no_change
 multiple_morse_match
 mice_and_maze
 project_file_dependencies
+water_shortage
