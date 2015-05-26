@@ -28,7 +28,7 @@ int dijkstra (int from, int to, int camarades) {
     not_marked.push(pair<int, int> (0, from));
 
     while (!not_marked.empty()) {
-        cout << "Call with " << not_marked.top().second << endl;
+        //cout << "Call with " << not_marked.top().second << endl;
         int node = not_marked.top().second;
         not_marked.pop();
         relations[node].first = true;
@@ -38,10 +38,8 @@ int dijkstra (int from, int to, int camarades) {
 
         for (auto neighboor : relations[node].second) {
             if (!relations[neighboor].first) {
-                if (distance[neighboor] > distance[node] + 1) {
-                    distance[neighboor] = distance[node] + 1;
-                    not_marked.push(pair<int, int> (distance[neighboor], neighboor));
-                }
+                not_marked.push(pair<int, int> (distance[neighboor], neighboor));
+                distance[neighboor] = (distance[neighboor] > distance[node] + 1) ? distance[node] + 1 : distance[neighboor];
             }
         }
     }
@@ -52,11 +50,11 @@ int main(void) {
 
     int cases;
 
-    scanf("%d\n", &cases);
+    scanf("%d", &cases);
 
     while (cases--) {
         int camarades, from, to;
-        scanf("%d\n", &camarades);
+        scanf("%d", &camarades);
 
         for (int i = 0; i < camarades; ++i) {
             relations[i].first = false;
@@ -72,7 +70,7 @@ int main(void) {
             }
         }
 
-        scanf("%d %d\n", &from, &to);
+        scanf("%d %d", &from, &to);
 
         printf("%d %d %d\n", from, to, dijkstra(from, to, camarades) - 1);
 
