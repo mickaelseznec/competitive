@@ -6,15 +6,13 @@
 #include <limits>
 #include <queue>
 
-#define CAMARADES_MAX   100000
-
 using namespace std;
 
-vector <pair<bool, set<int>>> relations (CAMARADES_MAX);
+vector <pair<bool, vector<int>>> relations;
 
 static inline void add_relation (int from, int to) {
-    relations[from].second.insert(to);
-    relations[to].second.insert(from);
+    relations[from].second.push_back(to);
+    relations[to].second.push_back(from);
 }
 
 int dijkstra (int from, int to, int camarades) {
@@ -38,14 +36,17 @@ int dijkstra (int from, int to, int camarades) {
 
         for (auto neighboor : relations[node].second) {
             if (!relations[neighboor].first) {
-                not_marked.push(pair<int, int> (distance[neighboor], neighboor));
-                distance[neighboor] = (distance[neighboor] > distance[node] + 1) ? distance[node] + 1 : distance[neighboor];
+                if (distance[neighboor] > distance[node] + 1) {
+                    not_marked.push(make_pair(-distance[neighboor], neighboor));
+                    distance[neighboor] = distance[node] + 1;
+                }
             }
         }
     }
     return distance[to];
 }
 
+/* Using Dijkstra algorithm with adjacency vector to limit space occupied*/
 int main(void) {
 
     int cases;
@@ -53,14 +54,11 @@ int main(void) {
     scanf("%d", &cases);
 
     while (cases--) {
+        relations.clear();
         int camarades, from, to;
         scanf("%d", &camarades);
 
-        for (int i = 0; i < camarades; ++i) {
-            relations[i].first = false;
-            relations[i].second.clear();
-        }
-
+        relations.resize(camarades);
         for (int i = 0; i < camarades; ++i) {
             int from, to, relations_nb;
             scanf("%d %d", &from, &relations_nb);
