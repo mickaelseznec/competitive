@@ -4,6 +4,7 @@
 # gmon files
 gmon.out
 # exe
+generator
 lawn_mower
 goldbach
 no_change
@@ -14,6 +15,8 @@ maya_calendar
 water_shortage
 buy_or_build
 roof
-generator
 balloons
 bond
+WiFi
+# tests
+test_case
