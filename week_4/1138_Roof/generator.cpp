@@ -4,12 +4,12 @@
 
 using namespace std;
 
-#define MAX_ROOFS   20000
+#define MAX_ROOFS   2000
 
 int main (void) {
     srand (time(NULL));
 
-    int cases = rand() % 30 + 1;
+    int cases = 100;
 
     while (cases --) {
         int roofs = rand() % MAX_ROOFS + 1;
