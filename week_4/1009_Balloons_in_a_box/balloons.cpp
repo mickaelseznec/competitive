@@ -15,7 +15,7 @@
 using namespace std;
 
 array<array<int, 3>, 6> points;
-array<float, 6> radius;
+array<double, 6> radius;
 array<array<int, 3>, 2> box;
 array<int, 6> dist_min_box;
 
@@ -26,7 +26,8 @@ void compute_dist_min_box (int point_nb) {
         bool out = false;
 
         /* Discard point if not in box*/
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
+            //printf("Coord %d : %d (%d %d)\n", i, points[point][i], box[0][i], box[1][i]);
             if (box[0][i] < box[1][i]) {
                 if (!(points[point][i] > box[0][i] && points[point][i] < box[1][i]))
                     out = true;
@@ -36,6 +37,7 @@ void compute_dist_min_box (int point_nb) {
             }
         }
         if (out) {
+            //printf("Point %d is out !\n", point);
             dist_min_box[point] = 0;
             continue;
         }
@@ -50,20 +52,20 @@ void compute_dist_min_box (int point_nb) {
     }
 }
 
-inline float euclidian_dist (int pt1, int pt2) {
+inline double euclidian_dist (int pt1, int pt2) {
     return sqrt(((points[pt1][0] - points[pt2][0]) * (points[pt1][0] - points[pt2][0])) +
             ((points[pt1][1] - points[pt2][1]) * (points[pt1][1] - points[pt2][1])) +
             ((points[pt1][2] - points[pt2][2]) * (points[pt1][2] - points[pt2][2])));
 }
 
-inline float dist_to_ballon (int point, int balloon) {
+inline double dist_to_ballon (int point, int balloon) {
     if (euclidian_dist (point, balloon) - radius[balloon] > 0)
         return euclidian_dist (point, balloon) - radius[balloon];
     else 
         return 0;
 }
 
-inline float box_volume (void) {
+inline double box_volume (void) {
     return abs((box[1][0] - box[0][0]) *
             (box[1][1] - box[0][1]) *
             (box[1][2] - box[0][2]));
@@ -80,7 +82,6 @@ int main(void) {
         scanf("%d", &point_nb);
         if (!point_nb)
             break;
-
         if (first)
             first = false;
         else
@@ -104,11 +105,11 @@ int main(void) {
             prm[i] = i;
         }
 
-        float final_volume = 0.0f;
+        double final_volume = 0.0;
         do {
-            float volume = 0.0f;
+            double volume = 0.0;
             for (int i = 0; i < point_nb; i++) {
-                float min_r = dist_min_box[prm[i]];
+                double min_r = dist_min_box[prm[i]];
                 //printf("Distance between box and %d: %d\n", prm[i], (int) min_r);
                 for (int j = 0; j < i; j++) {
                     //printf("Distance from %d and balloon %d: %f (%f)\n", prm[j], prm[i], dist_to_ballon(prm[i],prm[j]), euclidian_dist(prm[i], prm[j]));
@@ -119,7 +120,7 @@ int main(void) {
                 radius[prm[i]] = min_r;
                 volume += pow(min_r, 3);
             }
-            volume *= (4.0f / 3.0f) * M_PI;
+            volume *= (4.0 / 3.0) * M_PI;
             //printf("Intermediate volume : %f\n\n", volume);
             if (volume > final_volume)
                 final_volume = volume;
