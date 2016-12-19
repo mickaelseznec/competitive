@@ -1,0 +1,564 @@
+Takeover has 2 
+Buyout has 5 
+Can't even merge
+Takeover has 2 
+Buyout has 5 
+Takeover has 
+Buyout has 5 
+Case 1: Buyout Limited
+Takeover has 6 5 5 4 
+Buyout has 9 7 3 3 
+Must merge
+Takeover has 11 5 4 
+Buyout has 9 7 3 3 
+Takeover has 11 5 4 
+Buyout has 16 3 3 
+Takeover has 16 4 
+Buyout has 16 3 3 
+Takeover has 16 4 
+Buyout has 19 3 
+Takeover has 20 
+Buyout has 19 3 
+Takeover has 20 
+Buyout has 22 
+Takeover has 20 
+Buyout has 22 
+Takeover has 
+Buyout has 22 
+Case 2: Buyout Limited
+Takeover has 6 
+Buyout has 5 1 
+Try with takeover
+Takeover has 6 
+Buyout has 1 
+Takeover has 6 
+Buyout has 1 
+Takeover has 6 
+Buyout has 
+Try with merge
+Case 3: Takeover Incorporated
+Takeover has 3 
+Buyout has 6 5 4 2 
+Can't even merge
+Takeover has 3 
+Buyout has 6 5 4 2 
+Takeover has 
+Buyout has 6 5 4 2 
+Case 4: Buyout Limited
+Takeover has 9 8 7 4 
+Buyout has 8 7 4 
+Try with takeover
+Takeover has 9 8 7 4 
+Buyout has 7 4 
+Takeover has 9 8 7 4 
+Buyout has 11 
+Takeover has 17 7 4 
+Buyout has 11 
+Takeover has 17 7 4 
+Buyout has 11 
+Takeover has 17 7 4 
+Buyout has 
+Try with merge
+Case 5: Takeover Incorporated
+Takeover has 8 6 4 
+Buyout has 6 5 1 1 
+Try with takeover
+Takeover has 8 6 4 
+Buyout has 5 1 1 
+Takeover has 8 6 4 
+Buyout has 6 1 
+Takeover has 8 6 4 
+Buyout has 1 
+Takeover has 8 6 4 
+Buyout has 1 
+Takeover has 8 6 4 
+Buyout has 
+Try with merge
+Case 6: Takeover Incorporated
+Takeover has 9 8 6 5 
+Buyout has 5 1 
+Try with takeover
+Takeover has 9 8 6 5 
+Buyout has 1 
+Takeover has 9 8 6 5 
+Buyout has 1 
+Takeover has 9 8 6 5 
+Buyout has 
+Try with merge
+Case 7: Takeover Incorporated
+Takeover has 4 4 3 1 
+Buyout has 8 4 
+Must merge
+Takeover has 8 3 1 
+Buyout has 8 4 
+Takeover has 8 3 1 
+Buyout has 12 
+Takeover has 11 1 
+Buyout has 12 
+Takeover has 1 
+Buyout has 12 
+Takeover has 1 
+Buyout has 12 
+Takeover has 
+Buyout has 12 
+Case 8: Buyout Limited
+Takeover has 8 8 7 1 
+Buyout has 6 
+Try with takeover
+Takeover has 8 8 7 1 
+Buyout has 
+Try with merge
+Case 9: Takeover Incorporated
+Takeover has 9 2 2 
+Buyout has 7 5 5 2 
+Try with takeover
+Takeover has 9 2 2 
+Buyout has 5 5 2 
+Takeover has 9 2 2 
+Buyout has 10 2 
+Takeover has 11 2 
+Buyout has 10 2 
+Takeover has 11 2 
+Buyout has 12 
+Takeover has 13 
+Buyout has 12 
+Takeover has 13 
+Buyout has 12 
+Takeover has 13 
+Buyout has 
+Try with merge
+Case 10: Takeover Incorporated
+Takeover has 5 1 
+Buyout has 5 4 
+Must merge
+Takeover has 6 
+Buyout has 5 4 
+Takeover has 6 
+Buyout has 9 
+Takeover has 6 
+Buyout has 9 
+Takeover has 
+Buyout has 9 
+Case 11: Buyout Limited
+Takeover has 9 3 
+Buyout has 4 2 
+Try with takeover
+Takeover has 9 3 
+Buyout has 2 
+Takeover has 9 3 
+Buyout has 2 
+Takeover has 9 3 
+Buyout has 
+Try with merge
+Case 12: Takeover Incorporated
+Takeover has 9 7 4 
+Buyout has 6 
+Try with takeover
+Takeover has 9 7 4 
+Buyout has 
+Try with merge
+Case 13: Takeover Incorporated
+Takeover has 2 
+Buyout has 7 
+Can't even merge
+Takeover has 2 
+Buyout has 7 
+Takeover has 
+Buyout has 7 
+Case 14: Buyout Limited
+Takeover has 9 4 3 
+Buyout has 8 4 
+Try with takeover
+Takeover has 9 4 3 
+Buyout has 4 
+Takeover has 9 4 3 
+Buyout has 4 
+Takeover has 9 4 3 
+Buyout has 
+Try with merge
+Case 15: Takeover Incorporated
+Takeover has 3 
+Buyout has 9 8 1 1 
+Can't even merge
+Takeover has 3 
+Buyout has 9 8 1 1 
+Takeover has 
+Buyout has 9 8 1 1 
+Case 16: Buyout Limited
+Takeover has 7 2 1 
+Buyout has 8 4 
+Must merge
+Takeover has 9 1 
+Buyout has 8 4 
+Takeover has 9 1 
+Buyout has 12 
+Takeover has 10 
+Buyout has 12 
+Takeover has 
+Buyout has 12 
+Case 17: Buyout Limited
+Takeover has 8 1 
+Buyout has 4 2 
+Try with takeover
+Takeover has 8 1 
+Buyout has 2 
+Takeover has 8 1 
+Buyout has 2 
+Takeover has 8 1 
+Buyout has 
+Try with merge
+Case 18: Takeover Incorporated
+Takeover has 2 
+Buyout has 7 5 4 
+Can't even merge
+Takeover has 2 
+Buyout has 7 5 4 
+Takeover has 
+Buyout has 7 5 4 
+Case 19: Buyout Limited
+Takeover has 7 6 5 
+Buyout has 9 8 
+Must merge
+Takeover has 13 5 
+Buyout has 9 8 
+Takeover has 13 5 
+Buyout has 17 
+Takeover has 18 
+Buyout has 17 
+Takeover has 18 
+Buyout has 17 
+Takeover has 18 
+Buyout has 
+Case 20: Takeover Incorporated
+Takeover has 8 5 
+Buyout has 7 
+Try with takeover
+Takeover has 8 5 
+Buyout has 
+Try with merge
+Case 21: Takeover Incorporated
+Takeover has 8 8 6 
+Buyout has 7 3 2 
+Try with takeover
+Takeover has 8 8 6 
+Buyout has 3 2 
+Takeover has 8 8 6 
+Buyout has 5 
+Takeover has 8 8 6 
+Buyout has 
+Try with merge
+Case 22: Takeover Incorporated
+Takeover has 2 2 
+Buyout has 8 5 4 2 
+Must merge
+Takeover has 4 
+Buyout has 8 5 4 2 
+Takeover has 
+Buyout has 8 5 4 2 
+Case 23: Buyout Limited
+Takeover has 7 7 3 3 
+Buyout has 8 3 
+Must merge
+Takeover has 14 3 3 
+Buyout has 8 3 
+Takeover has 14 3 3 
+Buyout has 11 
+Takeover has 14 3 3 
+Buyout has 
+Case 24: Takeover Incorporated
+Takeover has 7 6 6 5 
+Buyout has 7 3 3 
+Must merge
+Takeover has 13 6 5 
+Buyout has 7 3 3 
+Takeover has 13 6 5 
+Buyout has 10 3 
+Takeover has 13 6 5 
+Buyout has 3 
+Takeover has 13 6 5 
+Buyout has 3 
+Takeover has 13 6 5 
+Buyout has 
+Case 25: Takeover Incorporated
+Takeover has 8 6 
+Buyout has 8 
+Must merge
+Takeover has 14 
+Buyout has 8 
+Takeover has 14 
+Buyout has 8 
+Takeover has 14 
+Buyout has 
+Case 26: Takeover Incorporated
+Takeover has 8 1 
+Buyout has 9 7 4 
+Must merge
+Takeover has 9 
+Buyout has 9 7 4 
+Takeover has 9 
+Buyout has 16 4 
+Takeover has 9 
+Buyout has 16 4 
+Takeover has 
+Buyout has 16 4 
+Case 27: Buyout Limited
+Takeover has 6 5 4 
+Buyout has 8 6 1 1 
+Must merge
+Takeover has 11 4 
+Buyout has 8 6 1 1 
+Takeover has 11 4 
+Buyout has 14 1 1 
+Takeover has 15 
+Buyout has 14 1 1 
+Takeover has 15 
+Buyout has 15 1 
+Takeover has 15 
+Buyout has 15 1 
+Takeover has 15 
+Buyout has 16 
+Takeover has 15 
+Buyout has 16 
+Takeover has 
+Buyout has 16 
+Case 28: Buyout Limited
+Takeover has 8 
+Buyout has 5 4 4 3 
+Try with takeover
+Takeover has 8 
+Buyout has 4 4 3 
+Takeover has 8 
+Buyout has 8 3 
+Takeover has 8 
+Buyout has 8 3 
+Takeover has 8 
+Buyout has 11 
+Takeover has 8 
+Buyout has 11 
+Takeover has 
+Buyout has 11 
+Try with merge
+Takeover has 
+Buyout has 5 4 4 3 
+Case 29: Buyout Limited
+Takeover has 3 3 2 
+Buyout has 9 8 7 4 
+Must merge
+Takeover has 6 2 
+Buyout has 9 8 7 4 
+Takeover has 2 
+Buyout has 9 8 7 4 
+Takeover has 2 
+Buyout has 9 8 7 4 
+Takeover has 
+Buyout has 9 8 7 4 
+Case 30: Buyout Limited
+Takeover has 9 9 2 
+Buyout has 8 
+Try with takeover
+Takeover has 9 9 2 
+Buyout has 
+Try with merge
+Case 31: Takeover Incorporated
+Takeover has 4 1 
+Buyout has 5 
+Must merge
+Takeover has 5 
+Buyout has 5 
+Case 32: Buyout Limited
+Takeover has 8 1 
+Buyout has 9 8 6 3 
+Must merge
+Takeover has 9 
+Buyout has 9 8 6 3 
+Takeover has 9 
+Buyout has 17 6 3 
+Takeover has 9 
+Buyout has 17 6 3 
+Takeover has 
+Buyout has 17 6 3 
+Case 33: Buyout Limited
+Takeover has 3 1 
+Buyout has 5 5 3 3 
+Must merge
+Takeover has 4 
+Buyout has 5 5 3 3 
+Takeover has 
+Buyout has 5 5 3 3 
+Case 34: Buyout Limited
+Takeover has 3 3 
+Buyout has 9 9 3 1 
+Must merge
+Takeover has 6 
+Buyout has 9 9 3 1 
+Takeover has 
+Buyout has 9 9 3 1 
+Case 35: Buyout Limited
+Takeover has 2 
+Buyout has 6 1 
+Can't even merge
+Takeover has 2 
+Buyout has 6 1 
+Takeover has 
+Buyout has 6 1 
+Case 36: Buyout Limited
+Takeover has 2 
+Buyout has 9 3 
+Can't even merge
+Takeover has 2 
+Buyout has 9 3 
+Takeover has 
+Buyout has 9 3 
+Case 37: Buyout Limited
+Takeover has 9 
+Buyout has 9 8 4 2 
+Can't even merge
+Takeover has 9 
+Buyout has 9 8 4 2 
+Takeover has 9 
+Buyout has 17 4 2 
+Takeover has 9 
+Buyout has 17 4 2 
+Takeover has 
+Buyout has 17 4 2 
+Case 38: Buyout Limited
+Takeover has 6 2 
+Buyout has 9 
+Must merge
+Takeover has 8 
+Buyout has 9 
+Takeover has 
+Buyout has 9 
+Case 39: Buyout Limited
+Takeover has 6 1 
+Buyout has 9 6 1 
+Must merge
+Takeover has 7 
+Buyout has 9 6 1 
+Takeover has 
+Buyout has 9 6 1 
+Case 40: Buyout Limited
+Takeover has 4 1 
+Buyout has 8 7 5 
+Must merge
+Takeover has 5 
+Buyout has 8 7 5 
+Takeover has 
+Buyout has 8 7 5 
+Case 41: Buyout Limited
+Takeover has 9 6 
+Buyout has 7 1 1 
+Try with takeover
+Takeover has 9 6 
+Buyout has 1 1 
+Takeover has 9 6 
+Buyout has 2 
+Takeover has 9 6 
+Buyout has 
+Try with merge
+Case 42: Takeover Incorporated
+Takeover has 9 6 
+Buyout has 6 3 
+Try with takeover
+Takeover has 9 6 
+Buyout has 3 
+Takeover has 9 6 
+Buyout has 3 
+Takeover has 9 6 
+Buyout has 
+Try with merge
+Case 43: Takeover Incorporated
+Takeover has 6 5 2 
+Buyout has 5 
+Try with takeover
+Takeover has 6 5 2 
+Buyout has 
+Try with merge
+Case 44: Takeover Incorporated
+Takeover has 6 4 2 1 
+Buyout has 7 5 4 
+Must merge
+Takeover has 10 2 1 
+Buyout has 7 5 4 
+Takeover has 10 2 1 
+Buyout has 12 4 
+Takeover has 12 1 
+Buyout has 12 4 
+Takeover has 12 1 
+Buyout has 16 
+Takeover has 13 
+Buyout has 16 
+Takeover has 
+Buyout has 16 
+Case 45: Buyout Limited
+Takeover has 9 8 6 2 
+Buyout has 9 9 5 1 
+Must merge
+Takeover has 17 6 2 
+Buyout has 9 9 5 1 
+Takeover has 17 6 2 
+Buyout has 18 5 1 
+Takeover has 23 2 
+Buyout has 18 5 1 
+Takeover has 23 2 
+Buyout has 23 1 
+Takeover has 25 
+Buyout has 23 1 
+Takeover has 25 
+Buyout has 24 
+Takeover has 25 
+Buyout has 
+Case 46: Takeover Incorporated
+Takeover has 7 3 
+Buyout has 7 6 4 2 
+Must merge
+Takeover has 10 
+Buyout has 7 6 4 2 
+Takeover has 10 
+Buyout has 13 4 2 
+Takeover has 10 
+Buyout has 13 4 2 
+Takeover has 
+Buyout has 13 4 2 
+Case 47: Buyout Limited
+Takeover has 6 
+Buyout has 2 2 1 
+Try with takeover
+Takeover has 6 
+Buyout has 2 1 
+Takeover has 6 
+Buyout has 3 
+Takeover has 6 
+Buyout has 
+Try with merge
+Case 48: Takeover Incorporated
+Takeover has 6 5 4 
+Buyout has 6 6 
+Must merge
+Takeover has 11 4 
+Buyout has 6 6 
+Takeover has 11 4 
+Buyout has 12 
+Takeover has 15 
+Buyout has 12 
+Takeover has 15 
+Buyout has 12 
+Takeover has 15 
+Buyout has 
+Case 49: Takeover Incorporated
+Takeover has 8 7 4 
+Buyout has 8 8 4 1 
+Must merge
+Takeover has 15 4 
+Buyout has 8 8 4 1 
+Takeover has 15 4 
+Buyout has 16 4 1 
+Takeover has 19 
+Buyout has 16 4 1 
+Takeover has 19 
+Buyout has 20 1 
+Takeover has 19 
+Buyout has 20 1 
+Takeover has 
+Buyout has 20 1 
+Case 50: Buyout Limited
